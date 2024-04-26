@@ -1,0 +1,16 @@
+variavel,descricao,tipo,subtipo
+survived,Informa se sobreviveu ou não aou naufragio. 0=nao 1=sim,qualitativa,nominal
+pclass,"Classe do passageiro. 1 = 1ª classe, 2 = 2ª classe, 3 = 3ª classe",qualitativa,ordinal
+sex,"Sexo do passageiro. male=masculino, female=feminino",qualitativa,nominal
+age,Idade do passageiro,quantitativa,discreta
+sibsp,Número de irmãos e/ou companheiro abordo,quantitativa,discreta
+parch,Número de pais e/ou filhos abordo,quantitativa,discreta
+fare,Valor pago pela passagem,quantitativa,continua
+embarked,Nome do porto onde embarcou,qualitativa,nominal
+class,"Equivalente ao pclass. 1 = 1ª classe, 2 = 2ª classe, 3 = 3ª classe",qualitativa,ordinal
+who,"Categoria do passageiro. Homem, mulher ou criança",qualitativa,nominal
+adult_male,Verifica se o passageiro é um homem adulto ou não. False=nao True=sim,qualitativa,nominal
+deck,Área onde a cabine do passageiro está localizada,qualitativa,nominal
+embark_town,Cidade onde o passageiro embarcou,qualitativa,nominal
+alive,Verifica se o passageiro sobreviveu ou não. False=nao True=sim,qualitativa,nominal
+alone,Verifica se o passageiro estava sozinho no navio ou não. False=nao True=sim,qualitativa,nominal
